@@ -1,39 +1,36 @@
-Airline Reservation System
+✈️ Airline Reservation System
+📌 Overview
+This is a console-based Airline Reservation System implemented using structured programming in C++. The system allows users to book, view, search, and cancel flight reservations in a simple and intuitive way.
 
-Overview
+🚀 Features
+✈️ Flight Booking: Reserve a seat on a specific flight.
 
-This project is a simple Airline Reservation System implemented using structured programming in C++. It allows users to book, view, and manage airline reservations through a console-based interface.
+🧾 View Reservations: Display all current bookings.
 
-Features
+❌ Cancel Reservation: Remove a booking from the system.
 
-Flight Booking: Users can reserve a seat on a specific flight.
+🔍 Search Flights: Find flights based on destination or date.
 
-View Reservations: Display a list of current reservations.
-
-Cancel Reservation: Remove a booking from the system.
-
-Search Flights: Search for available flights based on criteria like destination or date.
-
-Purpose
-
+🎯 Purpose
 This project demonstrates:
 
-The use of structured programming concepts such as functions and arrays in C++.
+The application of structured programming concepts in C++ (functions, arrays, control structures).
 
-A practical application of basic programming principles to solve real-world problems.
+A simple real-world system built without object-oriented programming (OOP).
 
-System Design
+Modular and maintainable code suitable for beginners learning procedural C++.
 
-The program follows a structured programming approach, avoiding object-oriented concepts. It is modularized into the following functions:
+🧩 System Design
+The program is modularized using functions for clarity and reusability:
 
-main(): The entry point of the program.
+main() – Entry point of the system.
 
-displayMenu(): Shows the main menu options to the user.
+displayMenu() – Shows available options to the user.
 
-bookFlight(): Handles flight reservations.
+bookFlight() – Handles flight reservation logic.
 
-viewReservations(): Displays all current bookings.
+viewReservations() – Lists all current reservations.
 
-cancelReservation(): Allows users to cancel a booking.
+cancelReservation() – Allows users to cancel an existing booking.
 
-searchFlights(): Searches for flights based on user input.
+searchFlights() – Searches available flights based on user criteria.
